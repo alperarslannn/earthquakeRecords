@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(11, 11, 11, 0.3);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mt20{
+  margin-top: 20px !important;
+}
+
+.headerClass{
+  opacity: 0.6;
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.centerGrid{
+  display: flex;
+  justify-content: center;
+  transform: translate(20%, 0);
+  max-width: 1050px;
+  background-color: rgb(231, 231, 231);
+}
+
+.MuiDataGrid-virtualScroller{
+  background-color: white;
+}
+
+.MuiDataGrid-footerContainer .MuiDataGrid-selectedRowCount{
+  opacity: 0;
+}
+
+.disable{
+  background-color: rgb(207, 207, 207) !important;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.height{
+  min-height: 500px;
+  margin-top: 20px;
+}
+
+.minHeight{
+  min-height: 500px;
+}
+
+.datagridProp div .MuiDataGrid-footerContainer .MuiTablePagination-selectLabel{opacity: 0;}
+.datagridProp div .MuiDataGrid-footerContainer .MuiInputBase-root{opacity: 0;}
