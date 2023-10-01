@@ -38,6 +38,7 @@ Desktop.ini
 
 # Build scripts
 .build/
+src/main/frontend/build
 
 # Node modules
 src/main/frontend/node_modules
