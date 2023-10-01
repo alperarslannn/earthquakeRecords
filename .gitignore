@@ -1,0 +1,43 @@
+# Binaries
+*.class
+*.jar
+*.war
+*.ear
+*.db
+rebel.xml
+
+# Maven
+bin/
+target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+*.jsfdia
+
+# SCM
+.svn/
+.git/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Misc
+*.swp
+.factorypath
+.tern-project
+.springBeans
+.flattened-pom.xml
+
+# IntelliJ
+.idea/
+*.iml
+
+# Build scripts
+.build/
+
+# Node modules
+src/main/frontend/node_modules
