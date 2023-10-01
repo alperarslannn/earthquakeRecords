@@ -82,7 +82,7 @@ const EartquakeRecords = () => {
     },
   };
 
-  const handleChange = (event) => {
+  const handleCountryChange = (event) => {
     const {
       target: { value },
     } = event;
@@ -96,9 +96,6 @@ const EartquakeRecords = () => {
     console.log(event.target.value)
     setDayCount(event.target.value)
   }
-  const handleCountryChange = (event) => {
-    setSelectedCountry(event.target.value)
-  }
 
   return (
     <div>
@@ -110,7 +107,7 @@ const EartquakeRecords = () => {
             labelId="demo-multiple-name-label"
             id="demo-multiple-name"
             value={selectedCountry}
-            onChange={handleChange}
+            onChange={handleCountryChange}
             input={<OutlinedInput label="Name" />}
             MenuProps={MenuProps}
           >

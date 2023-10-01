@@ -28,9 +28,9 @@ code {
 .centerGrid{
   display: flex;
   justify-content: center;
-  transform: translate(20%, 0);
-  max-width: 1050px;
   background-color: rgb(231, 231, 231);
+  width: calc(80%);
+  margin: 0 10%;
 }
 
 .MuiDataGrid-virtualScroller{
